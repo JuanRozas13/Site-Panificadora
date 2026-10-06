@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hambúrgueres artesanais na brasa, pão feito todo dia e carne moída na hora.">
+    <meta name="keywords" content="hamburgueria,hambúrguer artesanal,burger,delivery,lanchonete">
+
+    <title>Brasa & Pão</title>
+    <link rel="shortcut icon" href="img/logoPao.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container flex">
+            <article class="logo">
+                <img src="img/logoPao.png" alt="Logo da hamburgueria Brasa & Pão">
+            </article>
+            <nav class="menu">
+                <input type="checkbox" name="check" id="check">
+                <label for="check" aria-label="Abrir menu">&#x2630;</label>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Destaque -->
+    <main id="inicio">
+        <div class="container">
+            <h1>Brasa &amp; Pão</h1>
+            <h2>Hambúrguer artesanal, grelhado na brasa e montado na hora.</h2>
+
+            <a href="#cardapio" class="botao">Ver cardápio</a>
+        </div>
+    </main>
+
+    <!-- Sobre -->
+    <section id="sobre">
+        <div class="container flex2">
+            <div class="destaque_sobre flex2">
+                <img src="img/hamburgue.jpg" alt="Hambúrguer sendo grelhado na brasa">
+            </div>
+            <article class="texto_sobre">
+                <h2>Nossa cozinha</h2>
+                <p>Moemos a carne todos os dias, assamos o pão de manhã e grelhamos cada
+                    pedido na brasa. Sem congelado, sem pressa: o hambúrguer sai do fogo
+                    direto para a sua mesa.
+                </p>
+
+                <div class="topico_sobre flex2">
+                    <img src="img/icone_carne.png" alt="">
+                    <p>Carne moída na hora</p>
+                </div>
+                <div class="topico_sobre flex2">
+                    <img src="img/icone_pao.png" alt="">
+                    <p>Pão artesanal assado todo dia</p>
+                </div>
+                <div class="topico_sobre flex2">
+                    <img src="img/icone_brasa.png" alt="">
+                    <p>Grelhado na brasa</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Vídeo -->
+    <section id="video">
+        <div class="container flex3">
+            <div class="texto_sobre">
+                <h2>Do fogo ao prato</h2>
+                <p>
+                    Veja como o nosso hambúrguer é preparado, da moagem da carne
+                    até a montagem final com queijo derretido e molho da casa.
+                </p>
+            </div>
+            <div class="video">
+                <!-- Troque o link pelo vídeo da sua hamburgueria -->
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/p4HpYIi-sws?si=4eJaCna0U0ncobPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cardápio -->
+    <section id="cardapio">
+        <div class="container">
+            <h2>Os mais pedidos</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Clássico</h3>
+                    <p>Blend bovino de 160 g, cheddar, alface, tomate e molho da casa no pão brioche.</p>
+                    <span class="preco">R$ 28,00</span>
+                    <a href="#contato" class="botao">Pedir</a>
+                </div>
+
+                <div class="card">
+                    <h3>Bacon Brasa</h3>
+                    <p>Blend bovino de 160 g, bacon crocante, cebola caramelizada e maionese defumada.</p>
+                    <span class="preco">R$ 34,00</span>
+                    <a href="#contato" class="botao">Pedir</a>
+                </div>
+
+                <div class="card">
+                    <h3>Veggie</h3>
+                    <p>Burger de grão-de-bico e beterraba, queijo muçarela, rúcula e molho de ervas.</p>
+                    <span class="preco">R$ 30,00</span>
+                    <a href="#contato" class="botao">Pedir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cardápio em PDF -->
+    <section id="pdf">
+        <div class="container flex2">
+            <div class="texto_wire">
+                <h2>Cardápio completo</h2>
+                <p>
+                    Veja todos os hambúrgueres, porções, bebidas e sobremesas.
+                    Clique no botão <span>ou escaneie o QR code</span>
+                    para abrir o cardápio em PDF.
+                </p>
+
+                <a href="cardapio.pdf" class="botao" target="_blank">Abrir PDF</a>
+            </div>
+
+            <div class="qrcode">
+                <img src="img/qrcode.png" width="200px" height="200px" alt="QR code do cardápio em PDF">
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé / Contato -->
+    <footer id="contato">
+        <div class="container flex3 rodape">
+            <div>
+                <h2>Venha nos visitar</h2>
+                <p>Rua das Brasas, 123 - Vila Madalena<br>São Paulo - SP</p>
+            </div>
+            <div>
+                <h3>Horário</h3>
+                <p>Ter a dom, das 18h às 23h30</p>
+            </div>
+            <div>
+                <h3>Pedidos</h3>
+                <p><a href="https://wa.me/5511999999999" target="_blank">WhatsApp (11) 99999-9999</a></p>
+            </div>
+        </div>
+        <p class="copy">&copy; 2026 Brasa &amp; Pão. Todos os direitos reservados.</p>
+    </footer>
+
+    <a href="#inicio" id="topo">
+        <img src="img/tp.png" width="100px" height="100px" alt="Voltar para o topo do site">
+    </a>
+
+</body>
+
+</html>
